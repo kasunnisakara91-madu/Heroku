@@ -39,7 +39,7 @@ app.get('/', (req, res) => {
     });
 });
 
-app.get('/api/v1/song/search', auth, async (req, res) => {
+app.get('/api/v1/song/search', async (req, res) => {
     try {
         const q = req.query.q;
 
